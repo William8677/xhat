@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 🎨 Colores Primarios -->
+    <color name="primaryColor">#F86320</color> <!-- Ajusta según tu preferencia -->
+    <color name="primaryDarkColor">#D1451B</color> <!-- Opcional -->
+    <color name="primaryLightColor">#FFA45C</color> <!-- Opcional -->
+    <color name="primary">#F86320</color> <!-- Naranja principal -->
+    <color name="primary_light">#FFA366</color> <!-- Naranja claro -->
+    <color name="primary_dark">#C6551A</color> <!-- Naranja oscuro -->
+    <color name="secondary">#000000</color> <!-- Negro -->
+    <color name="background">#FFFFFF</color> <!-- Blanco -->
+    <color name="accent">#FF5722</color> <!-- Color de acento adicional -->
+    <color name="highlight">#FF8A50</color> <!-- Color para destacar -->
+
+    <!-- ⚫ Colores Básicos -->
+    <color name="black">#000000</color> <!-- Negro -->
+    <color name="white">#FFFFFF</color> <!-- Blanco -->
+    <color name="gray">#808080</color> <!-- Gris neutro -->
+    <color name="light_gray">#D3D3D3</color> <!-- Gris claro -->
+    <color name="dark_gray">#A9A9A9</color> <!-- Gris oscuro -->
+
+    <!-- 🖌️ Colores Adicionales -->
+    <color name="semi_transparent_black">#80000000</color> <!-- Negro semi-transparente -->
+    <color name="semi_transparent_white">#80FFFFFF</color> <!-- Blanco semi-transparente -->
+    <color name="error">#FF0000</color> <!-- Rojo para mensajes de error -->
+    <color name="success">#4CAF50</color> <!-- Verde para mensajes de éxito -->
+    <color name="warning">#FFC107</color> <!-- Amarillo para advertencias -->
+
+    <!-- 🌈 Gradientes de Fondo -->
+    <color name="background_start">#FFD9C0</color> <!-- Comienzo del gradiente -->
+    <color name="background_end">#F86320</color> <!-- Fin del gradiente -->
+    <color name="background_secondary_start">#FFF3E0</color> <!-- Comienzo de gradiente secundario -->
+    <color name="background_secondary_end">#FFAB91</color> <!-- Fin de gradiente secundario -->
+
+    <!-- 📊 Colores de Estadísticas -->
+    <color name="chart_blue">#2196F3</color> <!-- Azul para gráficos -->
+    <color name="chart_red">#F44336</color> <!-- Rojo para gráficos -->
+    <color name="chart_green">#4CAF50</color> <!-- Verde para gráficos -->
+    <color name="chart_yellow">#FFEB3B</color> <!-- Amarillo para gráficos -->
+
+    <!-- 📱 UI Colores para Elementos de Interfaz -->
+    <color name="button_text">#FFFFFF</color> <!-- Texto en botones -->
+    <color name="button_background">#F86320</color> <!-- Fondo de botones -->
+    <color name="input_field_border">#BDBDBD</color> <!-- Borde de campos de entrada -->
+    <color name="input_field_background">#F5F5F5</color> <!-- Fondo de campos de entrada -->
+
+    <!-- ✨ Colores para Estado de Usuario -->
+    <color name="online_status">#4CAF50</color> <!-- Verde para estado en línea -->
+    <color name="offline_status">#9E9E9E</color> <!-- Gris para estado fuera de línea -->
+    <color name="busy_status">#FF9800</color> <!-- Naranja para estado ocupado -->
+    <color name="away_status">#FFC107</color> <!-- Amarillo para estado ausente -->
+
+    <!-- 🌟 Otros -->
+    <color name="shadow">#1A000000</color> <!-- Sombra (negro con transparencia) -->
+    <color name="overlay">#80000000</color> <!-- Superposición (negro semi-transparente) -->
+    <color name="sent_message_background">#E3F2FD</color>
+    <color name="received_message_background">#F5F5F5</color>
+    <color name="sent_message_text">#000000</color>
+    <color name="received_message_text">#000000</color>
+    <color name="message_time_text">#757575</color>
+    <color name="message_status_text">#2196F3</color>
+
+</resources>

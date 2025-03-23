@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Fondo redondeado para botones -->
+    <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+        <solid android:color="@color/orange_primary" />
+        <corners android:radius="12dp" />
+        <stroke android:width="2dp" android:color="@color/black" />
+    </shape>
+
+    <!-- Selector de estado para botones -->
+    <selector xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:state_pressed="true">
+            <shape android:shape="rectangle">
+                <solid android:color="@color/orange_dark" />
+                <corners android:radius="12dp" />
+            </shape>
+        </item>
+        <item android:state_enabled="false">
+            <shape android:shape="rectangle">
+                <solid android:color="@color/gray" />
+                <corners android:radius="12dp" />
+            </shape>
+        </item>
+        <item>
+            <shape android:shape="rectangle">
+                <solid android:color="@color/orange_primary" />
+                <corners android:radius="12dp" />
+                <stroke android:width="2dp" android:color="@color/black" />
+            </shape>
+        </item>
+    </selector>
+
+    <!-- Fondo transparente con borde -->
+    <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+        <solid android:color="@android:color/transparent" />
+        <stroke android:width="2dp" android:color="@color/orange_primary" />
+        <corners android:radius="8dp" />
+    </shape>
+
+    <!-- Gradiente para fondos -->
+    <shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+        <gradient
+            android:startColor="@color/orange_light"
+            android:endColor="@color/orange_dark"
+            android:angle="90" />
+        <corners android:radius="16dp" />
+    </shape>
+</resources>

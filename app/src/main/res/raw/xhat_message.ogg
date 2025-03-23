@@ -1,0 +1,10 @@
+Especificaciones del tono de mensaje:
+- Frecuencia base: 880Hz (La5)
+- Duración total: 0.5 segundos
+- Patrón:
+  * 0.0s - 0.1s: Fade in rápido
+  * 0.1s - 0.3s: Tono principal
+  * 0.3s - 0.5s: Fade out suave
+- Formato: OGG Vorbis
+- Calidad: 192kbps
+- Sample Rate: 44.1kHz

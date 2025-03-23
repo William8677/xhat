@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Application name -->
+    <string name="app_name">Domain</string>
+
+    <!-- Common messages -->
+    <string name="welcome_message">Welcome to Domain</string>
+    <string name="error_message">Something went wrong. Please try again.</string>
+    <string name="loading_message">Loading…</string>
+
+    <!-- Buttons -->
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_retry">Retry</string>
+
+    <!-- Validation messages -->
+    <string name="validation_error_empty_field">This field cannot be empty.</string>
+    <string name="validation_error_invalid_email">Please enter a valid email address.</string>
+</resources>

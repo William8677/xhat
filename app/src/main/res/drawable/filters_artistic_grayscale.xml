@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+
+    <!-- Rectángulo base -->
+    <path
+        android:fillColor="#808080"
+        android:pathData="M8,8 L56,8 L56,56 L8,56z" />
+
+    <!-- Líneas diagonales -->
+    <path
+        android:strokeColor="#A9A9A9"
+        android:strokeWidth="4"
+        android:pathData="M8,8 L56,56 M56,8 L8,56" />
+
+    <!-- Centro: Círculo Representado por un Path -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M32,24
+                         A8,8 0 1,0 32,40
+                         A8,8 0 1,0 32,24" />
+</vector>

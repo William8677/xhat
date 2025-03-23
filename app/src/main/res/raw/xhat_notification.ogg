@@ -1,0 +1,10 @@
+Especificaciones del tono de notificación:
+- Frecuencia base: 660Hz (Mi5)
+- Duración total: 0.3 segundos
+- Patrón:
+  * 0.0s - 0.05s: Fade in instantáneo
+  * 0.05s - 0.2s: Tono principal
+  * 0.2s - 0.3s: Fade out rápido
+- Formato: OGG Vorbis
+- Calidad: 192kbps
+- Sample Rate: 44.1kHz

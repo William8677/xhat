@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- 🔘 Botón Genérico -->
+    <style name="ButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">12dp</item>
+        <item name="android:fontFamily">@font/dm_sans</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- 🔘 Botón Primario -->
+    <style name="PrimaryButton" parent="ButtonStyle">
+        <item name="backgroundTint">@color/primary</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- 🔘 Botón Secundario -->
+    <style name="SecondaryButton" parent="ButtonStyle">
+        <item name="backgroundTint">@color/white</item>
+        <item name="android:textColor">@color/primary</item>
+    </style>
+
+    <!-- 🔲 Estilo para Tarjetas -->
+    <style name="CardStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+
+    <!-- 📜 Texto de Encabezado -->
+    <style name="HeaderText" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:fontFamily">@font/dm_sans</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- 📋 Texto Secundario -->
+    <style name="SecondaryText" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:fontFamily">@font/dm_sans</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <!-- ✏️ Estilo de Entrada de Texto -->
+    <style name="EditTextStyle" parent="Widget.MaterialComponents.TextInputEditText.FilledBox">
+        <item name="android:padding">12dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/dm_sans</item>
+    </style>
+
+    <style name="StoryEditorButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:tint">#FFFFFF</item>
+    </style>
+
+</resources>

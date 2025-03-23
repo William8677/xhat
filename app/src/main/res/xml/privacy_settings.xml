@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<privacy-settings xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Configure your privacy settings for Google Mobile Ads -->
+    <privacy-setting
+        android:name="ads_personalization"
+        android:value="true" />
+</privacy-settings>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="panic_button"
+        android:enabled="true"
+        android:icon="@drawable/ic_panic"
+        android:shortcutShortLabel="@string/panic_short_label"
+        android:shortcutLongLabel="@string/panic_long_label"
+        android:shortcutDisabledMessage="@string/panic_disabled_message">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.williamfq.xhat"
+            android:targetClass="com.williamfq.xhat.panic.RealTimeLocationActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>

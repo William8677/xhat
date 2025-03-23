@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Incluye todas las preferencias compartidas -->
+    <include domain="sharedpref" path="." />
+
+    <!-- Bases de Datos: Se incluyen las bases de datos importantes -->
+    <include domain="database" path="user_messages.db" />
+    <include domain="database" path="user_contacts.db" />
+    <include domain="database" path="chat_history.db" />
+    <include domain="database" path="media_metadata.db" />
+
+    <!-- Archivos Multimedia: Se respaldan las carpetas que contienen archivos relevantes -->
+    <include domain="file" path="media/files/" />
+    <include domain="file" path="media/images/" />
+    <include domain="file" path="media/videos/" />
+    <include domain="file" path="documents/" />
+    <include domain="file" path="downloads/" />
+
+    <!-- Exclusiones: Se excluyen archivos sensibles dentro del dominio de preferencias -->
+    <exclude domain="sharedpref" path="device.xml" />
+    <exclude domain="sharedpref" path="tokens.xml" />
+    <exclude domain="sharedpref" path="sensitive_data.xml" />
+
+
+</full-backup-content>

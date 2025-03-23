@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ad-services-config xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- API de Attribution Reporting -->
+    <attribution-reporting
+        enabled="true"
+        registration-allowed="true">
+        <allowed-partner id="ca-app-pub-2587938308176637~6448560139" />
+    </attribution-reporting>
+
+    <!-- API de Topics -->
+    <topics
+        enabled="true"
+        classification-allowed="true">
+        <allowed-partner id="ca-app-pub-2587938308176637~6448560139" />
+    </topics>
+
+    <!-- API de Protected Audience -->
+    <protected-audience
+        enabled="true"
+        custom-audience-allowed="true">
+        <allowed-partner id="ca-app-pub-2587938308176637~6448560139" />
+    </protected-audience>
+
+    <!-- Configuración de Privacidad -->
+    <privacy-settings>
+        <data-collection
+            user-consent-required="true"
+            allow-personalized-ads="true" />
+        <data-retention
+            retention-period-days="30" />
+    </privacy-settings>
+
+    <!-- Configuración de Seguridad -->
+    <security-settings>
+        <app-integrity-verification enabled="true" />
+        <ssl-pinning enabled="true" />
+    </security-settings>
+
+    <!-- Configuración de Test -->
+    <test-settings>
+        <test-devices>
+            <device id="TEST-DEVICE-ID" />
+        </test-devices>
+    </test-settings>
+
+    <!-- Configuración de AdMob -->
+    <admob-config>
+        <app-id value="ca-app-pub-2587938308176637~6448560139" />
+        <test-mode enabled="false" />
+    </admob-config>
+
+    <!-- Configuración de Reportes -->
+    <reporting-config>
+        <error-reporting enabled="true" />
+        <analytics enabled="true" />
+        <crash-reporting enabled="true" />
+    </reporting-config>
+
+    <!-- Metadatos -->
+    <metadata>
+        <created-at>2025-01-11T21:37:58Z</created-at>
+        <created-by>William8677</created-by>
+        <version>1.0.0</version>
+    </metadata>
+
+    <!-- Configuración Principal de AdServices -->
+    <property
+        android:name="android.adservices.AD_SERVICES_CONFIG"
+        android:resource="@xml/ad_services_config"
+        tools:replace="android:resource" />
+</ad-services-config>

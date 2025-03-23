@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+
+    <!-- Círculo exterior -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M32,4
+                        A28,28 0 1,1 3.999,32
+                        A28,28 0 1,1 32,4z" />
+
+    <!-- Brillos -->
+    <path
+        android:fillColor="#FFFFE0"
+        android:pathData="M32,12
+                        L34,24
+                        L46,26
+                        L36,34
+                        L38,46
+                        L32,38
+                        L26,46
+                        L28,34
+                        L18,26
+                        L30,24z" />
+</vector>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_chats"
+        android:icon="@drawable/ic_chats"
+        android:title="@string/chats" />
+    <item
+        android:id="@+id/navigation_stories"
+        android:icon="@drawable/ic_stories"
+        android:title="@string/historias" />
+    <item
+        android:id="@+id/navigation_communities"
+        android:icon="@drawable/ic_communities"
+        android:title="@string/comunidades" />
+    <item
+        android:id="@+id/navigation_channels"
+        android:icon="@drawable/ic_channels"
+        android:title="@string/canales" />
+    <item
+        android:id="@+id/navigation_chat_rooms"
+        android:icon="@drawable/ic_chat_rooms"
+        android:title="@string/salas_de_chat" />
+</menu>

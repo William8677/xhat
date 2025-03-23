@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Configuración para copias de seguridad en la nube -->
+    <cloud-backup>
+        <!-- Bases de Datos: Se incluyen solo las bases necesarias -->
+        <include domain="database" path="user_messages.db" />
+        <include domain="database" path="user_contacts.db" />
+
+        <!-- Preferencias compartidas: Se incluye el archivo específico y el contenido completo del dominio -->
+        <include domain="sharedpref" path="user_settings.xml" />
+        <include domain="sharedpref" path="." />
+
+        <!-- Archivos: Se incluyen carpetas relevantes -->
+        <include domain="file" path="media/files/" />
+        <include domain="file" path="documents/" />
+    </cloud-backup>
+
+    <!-- Configuración para transferencia entre dispositivos -->
+    <device-transfer>
+        <!-- Bases de Datos -->
+        <include domain="database" path="user_messages.db" />
+        <include domain="database" path="user_contacts.db" />
+
+        <!-- Preferencias compartidas -->
+        <include domain="sharedpref" path="user_settings.xml" />
+        <include domain="sharedpref" path="." />
+
+        <!-- Archivos -->
+        <include domain="file" path="media/files/" />
+        <include domain="file" path="documents/" />
+    </device-transfer>
+</data-extraction-rules>

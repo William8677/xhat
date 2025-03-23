@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Nombre de la aplicación -->
+    <string name="app_name">Domain</string>
+
+    <!-- Mensajes comunes -->
+    <string name="welcome_message">Bienvenido a Domain</string>
+    <string name="error_message">Algo salió mal. Por favor, inténtalo de nuevo.</string>
+    <string name="loading_message">Cargando…</string>
+
+    <!-- Botones -->
+    <string name="button_ok">Aceptar</string>
+    <string name="button_cancel">Cancelar</string>
+    <string name="button_retry">Reintentar</string>
+
+    <!-- Mensajes de validación -->
+    <string name="validation_error_empty_field">Este campo no puede estar vacío.</string>
+    <string name="validation_error_invalid_email">Por favor, introduce un correo electrónico válido.</string>
+</resources>

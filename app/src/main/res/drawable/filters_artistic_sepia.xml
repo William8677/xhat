@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+
+    <!-- Fondo -->
+    <path
+        android:fillColor="#CD853F"
+        android:pathData="M0,0 L64,0 L64,64 L0,64z" />
+
+    <!-- Sol Representado por un Path -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M32,16
+                         A16,16 0 1,0 32,48
+                         A16,16 0 1,0 32,16" />
+
+    <!-- Rayos del Sol -->
+    <path
+        android:strokeColor="#FFA500"
+        android:strokeWidth="4"
+        android:pathData="M32,0 L32,16
+                         M32,48 L32,64
+                         M0,32 L16,32
+                         M48,32 L64,32
+                         M11.313,11.313 L19.798,19.798
+                         M44.202,44.202 L52.687,52.687
+                         M11.313,52.687 L19.798,44.202
+                         M44.202,19.798 L52.687,11.313" />
+</vector>

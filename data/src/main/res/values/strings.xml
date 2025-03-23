@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Application or module name -->
+    <string name="app_name">Data</string>
+
+    <!-- Common messages -->
+    <string name="loading_message">Loading…</string>
+    <string name="error_message">An error occurred. Please try again.</string>
+    <string name="success_message">Operation completed successfully.</string>
+
+    <!-- Button texts -->
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_retry">Retry</string>
+
+    <!-- Validation texts -->
+    <string name="validation_error_empty">This field cannot be empty.</string>
+    <string name="validation_error_invalid_data">Invalid data. Please check and try again.</string>
+</resources>

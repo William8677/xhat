@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Sombre de la application o módulo -->
+    <string name="app_name">Data</string>
+
+    <!-- Menses comunes -->
+    <string name="loading_message">Cargando…</string>
+    <string name="error_message">Se produjo un error. Inténtalo nuevamente.</string>
+    <string name="success_message">Operación completada con éxito.</string>
+
+    <!-- Textos para botones -->
+    <string name="button_ok">Aceptar</string>
+    <string name="button_cancel">Cancelar</string>
+    <string name="button_retry">Reintentar</string>
+
+    <!-- Textos para validación -->
+    <string name="validation_error_empty">Este campo no puede estar vacío.</string>
+    <string name="validation_error_invalid_data">Datos inválidos. Por favor verifica e inténtalo nuevamente.</string>
+</resources>
